@@ -18,6 +18,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python {{ python_min }}
   run:
     - aenum >=2.2.4,<3.0.0
